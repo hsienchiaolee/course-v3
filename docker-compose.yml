@@ -1,7 +1,7 @@
 version: "3"
 services:
   notebook:
-    image: "jupyter/minimal-notebook:55d5ca6be183"
+    build: .
     volumes:
      - .:/home/jovyan/work
     ports:
