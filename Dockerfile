@@ -13,3 +13,4 @@ RUN /opt/conda/bin/conda install -c fastai fastai && \
     
 
 USER jovyan
+COPY jupyter_notebook_config.py ~/.jupyter/
