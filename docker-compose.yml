@@ -2,6 +2,7 @@ version: "3"
 services:
   notebook:
     build: .
+    shm_size: '2gb'
     volumes:
      - .:/home/jovyan/work
     ports:
