@@ -4,7 +4,7 @@ USER root
 
 # Update anaconda
 RUN /opt/conda/bin/conda update conda && \
-    /opt/conda/bin/conda install python=3.7 anaconda
+    /opt/conda/bin/conda install python=3.6 anaconda
 
 # Install dependency packages
 RUN /opt/conda/bin/conda install -c fastai fastai && \
