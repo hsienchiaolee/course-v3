@@ -6,7 +6,7 @@ data "google_compute_image" "pytorch" {
 resource "google_compute_instance" "fastai" {
   name         = "fastai"
   machine_type = "n1-highmem-8"
-  zone         = "us-east1-c"
+  zone         = "us-central1-c"
 
   network_interface {
     network = "default"
